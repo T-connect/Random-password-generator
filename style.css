@@ -1,0 +1,44 @@
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(4, 4, 124);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    width: 300px;
+}
+
+.btn{
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid grey;
+    color: white;
+}
+ .btn:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+     color: white;
+ }
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    
+
+    h1{
+        font-size: 25px;
+    }
+
+    .form-control{
+        width: 80vw;
+    }
+}
